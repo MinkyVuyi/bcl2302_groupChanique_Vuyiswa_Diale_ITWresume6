@@ -1,81 +1,82 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  header {
-    background-color: #1b8383;
-    text-align: center;
-    padding: 20px;
+html {
+    width: auto;
+    height: auto;
+    margin: 0%;
     font-size: 110%;
-  }
-
-  h1 {
-color:#bcf8db
-  }
-  
-  .intro{
-    background-color: #96dada;
-  }
-
-.text-center {
-  text-align: center;
 }
 
-  h2, h3 {
-    color: #181918;
-  }
+nav {
+    padding-left: 5%;
+    background-color: rgb(53, 178, 76);
+    padding-top: 10%;
+}
 
-  .text-left {
-    text-align: left;
-  }
+aside {
+    padding-right: 80%;
+    padding-bottom: 5%;
+}
 
-  nav ul li a {
-    color:#2019f6;
-  }
+.container {
+    display: flex;
+}
 
-  article {
-    margin-left: 30px;
-    margin-right: 50px;
-    padding: 20px;
-  }
+h1,
+h2,
+h3 {
+    color: rgb(1, 22, 15);
+    font: bolder;
+}
 
-  aside {
-    background-color: #85c8c8;
-    padding: 20px;
-    position: absolute;
-    bottom: 159px;
-    left: 0.5%;
-    width: 250px;
-  }
+.map1 {
+    background-color: rgb(32, 163, 56);
+    display: inline-block;
+    width: 45%;
+    padding-left: 2%;
+}
 
- img {
+.map2 {
+    background-color: rgb(97, 223, 116);
+    ;
+    display: inline-block;
+}
+
+.map1 {
+    flex: 1;
+}
+
+.map2 {
+    flex: 3;
+}
+
+div {
+    display: flex;
+}
+
+.mapA {
+    background-color: rgb(97, 223, 116);
+    display: inline-block;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.mapB {
+    background-color: rgb(97, 223, 116);
+    display: inline-block;
+    padding-left: 8%;
+}
+
+img {
     display: block;
     border-radius: 50%;
-    margin:auto;
-    border: 4px solid white;
-      }
-
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
-
-  section {
-    background-color: #96dada;
-    justify-content: center;
-    padding-top: 12%;
     margin: auto;
-    padding-right: 12%;
-    font-size: 110%;
-  }
+    margin-top: 20%;
+    border: 4px solid white;
+    margin-right: 10%;
+}
 
-  footer {
-    background-color: #1b8383;
+footer {
+    background-color: rgb(80, 178, 80);
+    padding-top: 1%;
+    font-style: italic;
     text-align: center;
-    padding: 10px;
-  }
+}
